@@ -1,0 +1,44 @@
+const [userInput, setuserInput] = useState(null)
+  setuserInput([
+    { Q: 1, Input: null }, { Q: 2, Input: null }, { Q: 3, Input: null }, { Q: 4, Input: null }, { Q: 5, Input: null }
+  ]);
+  const [quesBank, setquesBank] = useState(null)
+  setquesBank( [
+    {
+      question:
+        "What does HTML stand for? ?",
+      answers: ["vinayak", "sarthak", "somil", "devesh"],
+      correct: "vinayak",
+      questionId: "1"
+    },
+    {
+      question:
+        "Who is making the Web standards ?",
+      answers: ["vinayak", "sarthak", "somil", "devesh"],
+      correct: "vinayak",
+      questionId: "2"
+    },
+    {
+      question:
+        "Choose the correct HTML element for the largest heading: ?",
+      answers: ["vinayak", "sarthak", "somil", "devesh"],
+      correct: "vinayak",
+      questionId: "3"
+    },
+    {
+      question:
+        "What is the correct HTML element for inserting a line break ?",
+      answers: ["vinayak", "sarthak", "somil", "devesh"],
+      correct: "vinayak",
+      questionId: "4"
+    },
+    {
+      question:
+        "Choose the correct HTML element to define important text ",
+      answers: ["vinayak", "sarthak", "somil", "devesh"],
+      correct: "vinayak",
+      questionId: "5"
+    },
+
+
+  ]);
